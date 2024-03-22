@@ -1,0 +1,17 @@
+@use 'variaveis';
+
+.synopsis {
+    padding: 5.6vw;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+    &__title {
+        padding-bottom: 20px;
+    }
+
+    &__image {
+        padding-top: 10px;
+        max-width: 80%;
+    }
+}

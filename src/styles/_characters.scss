@@ -1,0 +1,41 @@
+.characters {
+    padding: 5.6vw;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    &__title {
+        margin-bottom: 44px;
+    }
+    
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        list-style: none;
+
+        &__item {
+            padding: 15px;
+
+            &__container {
+                max-width: 500px;
+                padding: 20px;
+                background-color: rgb(4, 0, 30);
+                border-radius: 5%;
+
+                @media (max-width: 768px) {
+                    max-width: 300px;
+                }
+                
+                img {
+                    max-width: 300px;
+                    border-radius: 5%;
+
+                    @media (max-width: 768px) {
+                        max-width: 200px;
+                    }
+                }
+            }
+        }
+    }
+}

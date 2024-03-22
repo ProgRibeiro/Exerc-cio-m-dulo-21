@@ -1,0 +1,28 @@
+.hero {    
+    background-image: url(../../dist/images/fundo_miles_cidade.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5.6vw;
+    min-height: 100vh;
+    
+    &__content  {
+        img {
+            max-width: 100%;
+            animation: fade 3s ease-in-out;
+        }
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
